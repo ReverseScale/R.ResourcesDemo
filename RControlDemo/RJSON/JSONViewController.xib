@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JSONViewController" customModule="RControlDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="appleJSONLabel" destination="xgX-jZ-HsC" id="1ge-kg-F4P"/>
+                <outlet property="rJSONLabel" destination="YLA-3c-8SB" id="nnT-rP-88e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y35-Ed-FlB">
+                    <rect key="frame" x="0.0" y="332.5" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="E7X-R9-cRb"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JSON URL by Apple" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgX-jZ-HsC">
+                    <rect key="frame" x="30" y="92.5" width="315" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="UAd-Cv-20n"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JSON URL by R" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLA-3c-8SB">
+                    <rect key="frame" x="30" y="453.5" width="315" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="2te-hg-HGf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Y35-Ed-FlB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="HyQ-fN-q2b"/>
+                <constraint firstItem="xgX-jZ-HsC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ipw-36-dbD"/>
+                <constraint firstItem="xgX-jZ-HsC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="W5X-4U-pSx"/>
+                <constraint firstItem="YLA-3c-8SB" firstAttribute="top" secondItem="Y35-Ed-FlB" secondAttribute="bottom" constant="120" id="dr1-kd-A51"/>
+                <constraint firstItem="YLA-3c-8SB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="g4I-nD-H9f"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YLA-3c-8SB" secondAttribute="trailing" constant="30" id="g4r-V3-cwl"/>
+                <constraint firstItem="YLA-3c-8SB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="gS0-c0-L18"/>
+                <constraint firstItem="Y35-Ed-FlB" firstAttribute="top" secondItem="xgX-jZ-HsC" secondAttribute="bottom" constant="120" id="ug3-Ky-Zbk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Y35-Ed-FlB" secondAttribute="trailing" id="xul-jm-L8c"/>
+                <constraint firstItem="Y35-Ed-FlB" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="yc4-jD-f2U"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xgX-jZ-HsC" secondAttribute="trailing" constant="30" id="ymJ-89-TxL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,10 @@
+{
+	"resultCode": 1,
+	"resultData": {
+		"list": [{
+			"data": "示例",
+		}],
+		"currentPage": 1
+	},
+	"resultMsg": ""
+}
