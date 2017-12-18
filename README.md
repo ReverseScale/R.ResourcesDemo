@@ -7,14 +7,14 @@
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Swift-blue.svg) ![](https://img.shields.io/badge/download-9.9MB-yellow.svg) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
-
+----
 ### 🤖 要求
 
 * iOS 9.0+
 * Xcode 9.0+
 * Swift 4
 
-
+----
 ### 🎨 测试 UI 什么样子？
 
 | 名称 |1.展示页 |2.展示页 |3.展示页 | 4.展示页 |
@@ -22,7 +22,7 @@
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-12-18/89361876.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-12-18/62199952.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-12-18/94196055.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-12-18/95136487.jpg) | 
 | 描述 | 图片素材 | JSON文件 | 字体文件 | 自定义视图 |
 
-
+----
 ### 🎯 安装方法
 
 #### 安装
@@ -53,11 +53,12 @@ $PODS_ROOT/R.swift/rswift" "$SRCROOT"
 
 > 作者的录像教程：https://vimeo.com/122888912
 
+----
 ### 🚀 运行原理
 
 每当项目build时，R.swift开始运行。它会侦测工程文件里包含的资源文件，接着生成一个 R.generated.swift的文件。这个文件根据项目里的资源文件按照类型生成结构体。
 
-
+----
 ### 🛠 配置
 
 #### R.Images
@@ -145,6 +146,7 @@ let jsonURL = NSBundle.mainBundle().URLForResource("seed-data", withExtension: "
 let jsonURL = R.file.seedDataJson
 ```
 
+----
 ### 📝 同类对比
 
 和同类型的其他开源库对比的优势
@@ -157,7 +159,7 @@ R.swift的优势有：
 * 支持多种资源类型
 * 设计之初接口就希望接近苹果原生API，让你快速上手
 
-
+----
 ### ⚖ 协议
 
 ```
@@ -184,6 +186,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+----
 ### 😬 联系
 
 * 微信 : WhatsXie
