@@ -1,11 +1,13 @@
 # R.ResourcesDemo
 Lets you manage and use resources in a more elegant and secure manner
 
+![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Swift-blue.svg) ![](https://img.shields.io/badge/download-9.9MB-yellow.svg) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
+
+[EN](#Requirements) | [中文](#中文说明)
+
 > If you're disappointed with Swift's old resource management model, now introduce a safe and elegant new way to manage your resources.
 
 ![](http://og1yl0w9z.bkt.clouddn.com/17-12-18/12691458.jpg)
-
-![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Swift-blue.svg) ![](https://img.shields.io/badge/download-9.9MB-yellow.svg) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 ## 🤖 Requirements 
 * iOS 9.0+
